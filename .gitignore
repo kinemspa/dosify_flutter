@@ -53,6 +53,10 @@ app.*.map.json
 # Uncomment the line below if you want to exclude firebase config
 # lib/firebase_options.dart
 
+# Google Services (contains sensitive API keys)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
 # Hive database files
 *.hive
 *.lock
